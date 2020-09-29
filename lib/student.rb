@@ -12,7 +12,12 @@ class Student
   end
   
   def .create_table
-    sql = 
+    sql = <<-SQL
+      CREATE TABLE students
+      id INTEGER PRIMARY KEY,
+      name TEXT,
+      grade TEXT;
+    SQL
   end
   
 end
