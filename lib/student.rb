@@ -34,6 +34,8 @@ class Student
     
   end
   
-  def 
+  def self.create
+    
+  end
   
 end
