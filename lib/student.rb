@@ -11,6 +11,8 @@ class Student
     @id = id
   end
   
-  
+  def .create_table
+    sql = 
+  end
   
 end
